@@ -16,10 +16,9 @@
     "url": "https://github.com/comp426-2023-spring/a03-UKeeShon/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-UKeeShon#readme",
+  "type": "module",
   "dependencies": {
-    "minimist": "^1.2.8",
-    "node-rps": "^0.0.4",
-    "node-rpsls": "^1.0.0"
+    "minimist": "^1.2.8"
   },
   "bin": {
     "node-rps": "./bin/rps-cli.js",
