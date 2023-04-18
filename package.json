@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-UKeeShon#readme",
   "dependencies": {
-    "minimist": "^1.2.8"
-  }
-  "bin":{
-	  "node-rps": "./bin/rps-cli.js",
-	  "node-rpsls": "./bin/rpsls-cli.js"
+    "minimist": "^1.2.8",
+    "node-rps": "^0.0.4",
+    "node-rpsls": "^1.0.0"
+  },
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
   }
 }
