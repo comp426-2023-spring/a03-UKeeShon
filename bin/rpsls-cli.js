@@ -3,7 +3,7 @@ import { rpsls } from "../lib/rpsls.js"
 import minimist from "minimist";
 
 
-let help = 'Usage: node-rpsls [SHOT]
+let help = `Usage: node-rpsls [SHOT]
 play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
 
 	-h, --help              display this help message and exit
@@ -13,7 +13,7 @@ Examples:
 	node-rpsls              Return JSON with single player RPSLS result.
 		                e.g. {"player":"rock"}
 	node-rpsls rock         Return JSON with results for RPSLS played against a simulated opponent.
-				e.g. {"player":"rock","opponent":"Spock","result":"lose"};
+				e.g. {"player":"rock","opponent":"Spock","result":"lose"}`;
 
 let rules = `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
