@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { rspls } from "../lib/rpsls.js"
+import { rpsls } from "../lib/rpsls.js"
 import minimist from "minimist";
 
 
